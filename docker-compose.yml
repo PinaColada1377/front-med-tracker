@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: tracker-app
+    container_name: tracker-app
+    restart: always
+    ports:
+    - 3000:3000

@@ -1,0 +1,82 @@
+.medicalItem {
+	display: grid;
+	grid-template-areas:
+		"name destinationCount count buttons"
+		"description description description description ";
+	grid-template-columns: 400px 150px 100px 150px;
+	grid-template-rows: 80px auto;
+	gap: 1rem;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.changeItemButton {
+	position: absolute;
+	z-index: 12;
+	right: 0.1rem;
+	bottom: 0.1rem;
+}
+
+.name {
+	grid-area: name;
+}
+
+.title {
+	margin: 0;
+
+	font-size: 34px;
+}
+
+.subTitle {
+	margin: 0;
+
+	color: rgb(160 160 160);
+
+	font-size: 14px;
+}
+
+.description {
+	grid-area: description;
+}
+
+.descriptionText {
+	margin: 0;
+
+	font-size: 22px;
+}
+
+.destinationCount {
+	grid-area: destinationCount;
+
+	border-right: 1px solid var(--gray-light);
+}
+
+.count {
+	grid-area: count;
+
+	border-right: 1px solid var(--gray-light);
+}
+
+.buttons {
+	grid-area: buttons;
+}
+
+.buttons:last-child {
+	margin-right: 0;
+}
+
+.button {
+	width: 60px;
+
+	margin-right: 1rem;
+	padding: 14px;
+
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.lastButton {
+	margin-right: 0;
+}
