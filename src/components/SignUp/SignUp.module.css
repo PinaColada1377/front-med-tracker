@@ -1,0 +1,14 @@
+.signUpForm {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.signUpButton {
+	margin-top: 10px;
+}
+
+.card {
+	margin-top: 1.5rem;
+	padding: 1rem;
+}

@@ -4,6 +4,9 @@ declare module "*.svg" {
 	export default content;
 }
 
+// this file is conditionally added/removed to next-env.d.ts
+// if the static image import handling is enabled
+
 interface StaticImageData {
 	src: string
 	height: number

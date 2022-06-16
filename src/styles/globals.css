@@ -1,0 +1,52 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+
+	color: var(--black);
+	background: var(--background-color);
+
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.visualyHidden {
+	position: absolute;
+
+	overflow: hidden;
+
+	width: 0;
+	height: 0;
+}
+
+:root {
+	--black-color: #3B434E;
+	--gray-light-color: #EBEBEB;
+	--gray-color: #B3B2B2;
+	--gray-dark-color: #999;
+	--white-color: white;
+	--primary-color: #7351F5;
+	--primary-dark-color: #6344DF;
+	--red-light-color: #FEA291;
+	--red-color: #FC836D;
+	--green-color: #007B48;
+	--green-light-color: #C8F8E4;
+	--font-family: "Noto Sans KR", sans-serif;
+	--background-color: #F4F4F5;
+	--text-secondary-color: var(--gray-color);
+	--border-radius: 4px;
+}
+
+.wrapper {
+	width: 880px;
+	margin: 0 auto;
+}

@@ -1,5 +1,5 @@
 {
-	"name": "med_tracker",
+	"name": "med-tracker",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -8,20 +8,19 @@
 		"debug": "NODE_OPTIONS='--inspect' next dev",
 		"build": "next build",
 		"start": "next start",
-		"stylelint": "stylelint \"**/*.css\" --fix"
+		"stylelint": "stylelint \"**/*.css\" --fix",
+		"eslint": "npx eslint --ext .tsx --ext .ts src/ --fix"
 	},
 	"dependencies": {
 		"axios": "^0.24.0",
-		"cookies": "^0.8.0",
 		"cross-env": "^7.0.3",
 		"date-fns": "^2.25.0",
 		"framer-motion": "^5.0.0",
-		"http-proxy": "^1.18.1",
 		"next": "12.0.1",
 		"react": "17.0.2",
+		"react-cookie": "^4.1.1",
 		"react-dom": "17.0.2",
-		"react-hook-form": "^7.18.0",
-		"react-yandex-metrika": "^2.6.0"
+		"yup": "^0.32.11"
 	},
 	"devDependencies": {
 		"@svgr/webpack": "^6.1.2",
@@ -32,7 +31,6 @@
 		"@typescript-eslint/parser": "^4.20.0",
 		"eslint": "^7.23.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
-		"husky": "^6.0.0",
 		"stylelint": "^14.1.0",
 		"stylelint-config-standard": "^24.0.0",
 		"stylelint-order": "^5.0.0",

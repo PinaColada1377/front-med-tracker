@@ -1,0 +1,11 @@
+.loginStatus {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+
+	width: 140px;
+
+	color: var(--gray-dark-color);
+
+	font-size: 16px;
+}

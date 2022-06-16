@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src/",
     "target": "es5",
     "lib": [
       "dom",
@@ -26,7 +27,7 @@
     "images.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/sign-in.tsx"  ],
+, "src/pages/auth.tsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -1,0 +1,15 @@
+.signInForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	row-gap: 15px;
+}
+
+.signInButton {
+	margin-top: 10px;
+}
+
+.card {
+	margin-top: 1.5rem;
+	padding: 1rem;
+}
